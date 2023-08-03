@@ -1,0 +1,87 @@
+/* common-issues-style.css */
+
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.banner {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #444;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #e74c3c; /* Unique color for headings */
+}
+
+p {
+    color: #f39c12; /* Unique color for regular text */
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+li strong {
+    color: #3498db; /* Unique color for strong elements */
+}
+
+li ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #2ecc71; /* Unique color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1abc9c; /* Unique color for link hover effect */
+}
+
+hr {
+    border: 1px solid #777;
+    margin: 20px 0;
+}
